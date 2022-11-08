@@ -1,0 +1,30 @@
+#guess the number game
+import random
+print("Welcome to guess the number game")
+print("\n Rules: you will be given three chances. If you can guess the number correctly, you win. Else, you lose.")
+n = int(input("\n\nEnter the range of numbers you would like to play for. (that is 1 to n, specify n) "))
+t = random.randint(1, n+1)
+g = int(input("Guess the number "))
+if t == g:
+    print("You win!")
+else:
+    print("Incorrect. Try again")
+    if t<g: 
+        print("Guess a lower number")
+    else:
+        print("Guess a higher number")
+    g = int(input("Enter your second guess here "))
+    if t == g:
+        print("You win!")
+    else:
+        print("Incorrect. Try again")
+        if t<g: 
+            print("Guess a lower number")
+        else:
+            print("Guess a higher number")
+        g = int(input("Enter your third guess here "))
+        if t == g:
+            print("You win!")
+        else:
+            print("You lose.")
+            print("The number is ",t)
