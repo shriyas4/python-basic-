@@ -1,6 +1,6 @@
 # python-basic-
 A set of basic python codes.
-All the theoritical aspects of the codes (mentioned above in the index) will be found here.
+All the theoretical aspects of the codes (mentioned above in the index) will be found here.
 
 Arithmetic operators in python:
 There are seven different types of additional operators in python.
