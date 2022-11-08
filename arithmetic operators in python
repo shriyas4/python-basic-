@@ -1,1 +1,23 @@
-
+#arithmetic operators in python with user input
+n,m = [int(x) for x in input('Enter any two numbers seperated by comma ').split(',')]
+#addition
+t = n+m
+print('addition of the two numbers is ',t)
+#subtraction
+t = n-m
+print('subtraction of the two numbers is ',t)
+#multiplication
+t = n*m
+print('multiplication of the two numbers is ',t)
+#division
+t = n/m
+print('division of the two numbers is ',t)
+#modulus
+t = n%m
+print('modulo of the two numbers is ',t)
+#exponential
+t = n**m
+print('exponential of the two numbers is ',t)
+#floor division
+t = n//m
+print('floor division of the two numbers is ',t)
