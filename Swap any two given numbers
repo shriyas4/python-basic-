@@ -1,0 +1,9 @@
+#to swap any two numbers with the input given by the user
+n,m = [int(x) for x in input('Enter any two numbers of your choice seperated by comma: ').split(',')]
+print('First number is ', n)
+print('Second number is ', m)
+t = n
+n = m
+m = t
+print('First number after swapping is ',n)
+print('Second number after swapping is',m)
