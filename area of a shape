@@ -1,0 +1,24 @@
+#area of a triangle
+# two inputs are needed, height and base. they are user defined. hence,
+h,b = [int(x) for x in input("Enter the height and base of the triangle seperated by commas ").split(",")]
+area = h*b/2
+print("Area of triangle is ", area)
+print("\n\n")
+#area of a square
+#one user driven input is needed
+a = int(input("Enter the length of the side of the square "))
+area = a*a
+print("Area of the square is ", area)
+print("\n\n")
+#area of the rectange
+#two inputs are needed. width and breadth (both user driven)
+w,b = [int(x) for x in input("Enter the width and breadth of the rectangle seperated by commas ").split(",")]
+area = w*b
+print("Area of the rectangle is ", area)
+print("\n\n")
+#area of a circle
+#one input is needed (radius)
+r = float(input("Enter the radius of the circle "))
+area = 3.14*r*r
+print("Area of the circle is ", area)
+print("\n\n")
