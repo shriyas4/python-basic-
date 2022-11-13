@@ -1,0 +1,33 @@
+#to check- type of codes
+#1. To check if a number is odd or even 
+x = int(input())
+if x%2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
+#2. To chech if the year is a leap year
+y = int(input("Enter the year you want to check: "))
+if y%4 == 0:
+    print("The year is a leap year")
+else:
+    print("It is not a leap year")
+#To check if a number is a negative number or positive number or 0
+#for the same number that was entered as x
+if x>0:
+    print("The number is a positive number")
+elif x<0:
+    print("The nubmer is a negative number")
+else:
+    print("The number is 0")
+#To check if a number is a prime number or not
+x = int(input())
+if x>1:
+    for j in range(2,x+1):
+        if (x%j==0):
+            print("not a prime number")
+            break
+        else:
+            print("It is a prime number")
+            break
+elif x <= 1:
+    print("It is not a prime number")
