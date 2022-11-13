@@ -1,0 +1,5 @@
+#to print a calendar
+import calendar
+y = int(input("Enter the year you want the calendar for: "))
+m = int(input("Enter the number of the month: "))
+print(calendar.month(y,m))
