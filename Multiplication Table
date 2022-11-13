@@ -1,0 +1,6 @@
+#to display a multiplication table
+print("Enter the number you want the multiplication table for: ")
+a = int(input())
+for j in range(1,11):
+    k = a*j
+    print(k)
