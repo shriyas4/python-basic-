@@ -6,7 +6,6 @@ a = int(input())
 b = int(input())
 c = int(input())
 v = (b**2)-4*a*c
-print(v)
 x = (-b + cmath.sqrt(v))/2*a
 y = (-b - cmath.sqrt(v))/2*a
 print("The first root of the equation is : ",x)
