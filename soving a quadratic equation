@@ -1,0 +1,13 @@
+#solving a quadratic equation
+import cmath
+print("The quadratic equation is of the form ax^2+bx+c.")
+print("\n Enter the values of a,b and c")
+a = int(input())
+b = int(input())
+c = int(input())
+v = (b**2)-4*a*c
+print(v)
+x = (-b + cmath.sqrt(v))/2*a
+y = (-b - cmath.sqrt(v))/2*a
+print("The first root of the equation is : ",x)
+print("The second root of the equation is : ",y)
